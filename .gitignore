@@ -1,0 +1,6 @@
+
+civnufos/*.bin
+civnufos/boot/*.bin
+civnufos/boot/*.o
+civnufos/kernel/*.o
+civnufos/kernel/*.bin
