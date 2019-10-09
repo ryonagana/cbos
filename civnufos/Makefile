@@ -10,8 +10,8 @@ all:
 
 
 .PHONY run:
-	#qemu-system-x86_64 
+	qemu-system-x86_64 kernel.z
 
 .PHONY clean:
-	rm ./boot/*.o
-	rm ./kernel/*.o
+	rm ./boot/*.o ./boot/*.bin
+	rm ./kernel/*.o ./kernel/*.bin
